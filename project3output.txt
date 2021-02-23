@@ -1,0 +1,39 @@
+Part 1 Non-PreemptiveScheduling
+
+Time  Process
+20  2
+40  3
+60  4
+65  5
+80  6
+95  1
+105  7
+120  9
+135  10
+150  8
+
+Process  Wait
+15 0
+2 0
+4 10
+5 10
+6 5
+7 5
+3 65
+8 0
+9 10
+10 15
+
+Part 2 PreemptiveScheduling
+
+Time  Process
+0 2
+3 1
+20 3
+25 4
+45 5
+55 6
+70 7
+100 8
+106 9
+115 10
